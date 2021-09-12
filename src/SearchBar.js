@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+
 
 class SearchBar extends React.Component{
 
@@ -10,6 +10,7 @@ class SearchBar extends React.Component{
         e.preventDefault();
 
         //api call hoga yahan
+        this.props.onFormSubmit(this.state.searchTerm);
     }
 
     render(){
