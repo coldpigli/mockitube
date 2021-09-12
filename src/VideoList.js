@@ -6,7 +6,7 @@ const VideoList = ({videos, onVideoSelect}) => {
         <div className = "ui relaxed list">
             {
             videos.map((video)=>{
-                return <VideoItem video = {video} onVideoSelect={onVideoSelect}/>
+                return <VideoItem key={video.id.videoId} video = {video} onVideoSelect={onVideoSelect}/>
             }
             )}
         </div>
