@@ -1,0 +1,21 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+
+:root{
+  --clr-primary-color: #1F2937;
+  --clr-accent-color: #0e835c;
+  --clr-primary-color-light: #abb0b6;
+}
+
+
+body{
+    background-color: var(--clr-accent-color);
+    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+
+}
+
+.search-bar{
+    background-color: var(--clr-accent-color);
+}
+
